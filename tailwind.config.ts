@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				racing: {
+					green: 'hsl(var(--racing-green))',
+					'green-dark': 'hsl(var(--racing-green-dark))',
+					silver: 'hsl(var(--racing-silver))',
+					gold: 'hsl(var(--racing-gold))',
+					podium: 'hsl(var(--racing-podium))'
 				}
+			},
+			backgroundImage: {
+				'gradient-racing': 'var(--gradient-racing)',
+				'gradient-podium': 'var(--gradient-podium)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'racing': 'var(--shadow-racing)',
+				'card': 'var(--shadow-card)'
+			},
+			fontFamily: {
+				'mono': 'var(--font-mono)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
